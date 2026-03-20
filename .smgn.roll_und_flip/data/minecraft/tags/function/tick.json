@@ -1,5 +1,6 @@
 {
     "values": [
-        ".smgn:events/trigger"
+        ".smgn:events/trigger",
+        ".smgn:tag/add"
     ]
 }
