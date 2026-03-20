@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "ダイスを振る",
+  "external_title": "ダイスを振る",
+  "inputs": [
+    {
+      "type": "minecraft:number_range",
+      "key": "faces",
+      "label": "ダイスの面",
+      "start": 2,
+      "end": 100,
+      "step": 1,
+      "initial": 2
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "count",
+      "label": "回数",
+      "start": 1,
+      "end": 10,
+      "step": 1,
+      "initial": 1
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "boolen",
+      "label": "秘匿として実行する",
+      "on_true": "1",
+      "on_false": "0"
+    }
+  ],
+  "actions": [
+    {
+      "label": "戻る",
+      "action": {
+        "type": "show_dialog",
+        "dialog": ".smgn:menu"
+      }
+    },
+    {
+      "label": "ダイスを振る",
+      "action": {
+        "type": "minecraft:dynamic/run_command",
+        "template": "/trigger .smgn.ruf.events set 991$(faces)$(count)$(boolen)"
+      }
+    }
+  ]
+}

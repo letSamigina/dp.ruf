@@ -1,0 +1,1 @@
+execute as @a[scores={.smgn.ruf.events=991210..991100101}] if entity @s run function .smgn:events/roll/analysis

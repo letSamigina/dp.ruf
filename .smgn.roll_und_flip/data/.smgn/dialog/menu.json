@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "メニュー",
+  "dialogs": [
+    ".smgn:roll/"
+  ]
+}

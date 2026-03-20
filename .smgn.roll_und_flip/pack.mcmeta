@@ -1,0 +1,40 @@
+{
+  "pack": {
+    "pack_format": 94,
+    "min_format": [
+      94.1
+    ],
+    "max_format": [
+      94.1
+    ],
+    "description": {
+      "text": "Created By ",
+      "extra": [
+        {
+          "text": "SamiGin4 ",
+          "color": "light_purple"
+        },
+        {
+          "player": {
+            "name": "aoi_mint"
+          },
+          "object": "player"
+        },
+        {
+          "text": "nDistributed under the "
+        },
+        {
+          "text": "MIT LICENSE",
+          "color": "gold"
+        },
+        "."
+      ]
+    }
+  },
+  "filter": {
+    "block": [{
+      "namespace": "minecraft",
+      "path": "(advancements?|recipes?)"
+    }]
+  }
+}
