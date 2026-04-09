@@ -24,3 +24,6 @@ Roll und Flip Ver.1.0.0
 
 ## 参考動画
 https://youtu.be/vaAkniJ9sgM
+
+## 関連記事
+[桁数が異なる場合でも適切にtriggerの値を分解する方法](https://zenn.dev/samigin4/articles/b08c6eb944840d)
